@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Apna Asingment</title>
+  </head>
+  <style type="text/css" media="all">
+  body,html{
+    margin: 0 0 0 0;
+    margin-top: 0;
+    background: #000;
+  }
+    #he{
+      background-color: #000;
+      color: #36c15a;
+      text-align: center;
+      margin-top: 0;
+      font-size: 40px;
+    }
+    img{
+      width: 100vw;
+      height: auto;
+      
+    }
+    #form{
+      width: 100vw -2px;
+      border: 2px solid green;
+      border-radius: 5px;
+      color: green;
+      
+    }
+    form{
+      padding: 20px;
+      display: block;
+      
+    
+    }
+    #input{
+      display: block;
+      width: 95%;
+      padding: 10px;
+      margin-block: 10px;
+    }
+    button{
+      width: 95%;
+      background: black;
+      border: 2px solid green;
+      border-radius: 5px;
+      color: green;
+      align-items: center;
+      font-size: 30px;
+    }
+    h1{
+      align-items: center;
+    }
+    #radio{
+      color: #fff;
+      display: block;
+    }
+    #gender{
+      align-items: left;
+    }
+    input[type='radio']:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: #d1d3d1;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+    }
+    input[type='radio']:checked:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: green;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+    }
+  </style>
+  <body>
+    <div id="he">  Gov polytechnic Ranchi</div>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQteRUU5ol7qjAVqFzmD5yimlIMrgSYSKu5w&usqp=CAU" alt="" />
+    
+    
+    <div id="form">
+      
+     <center><h1>Sign up</h1></center> 
+      <form>
+          <input type="text" placeholder="Full Name" name="" id="input" value="" />
+        <input type="email" placeholder="Email" name="email" id="input" value="" />
+        <input type="date" placeholder="Date of birth" name="" id="input" value="DOB" />
+         <b>Gender:</b>   <div id="radio">
+      
+         <input type="radio" name="gender" id="gender" value="Female"/>
+        <label for="Female">Female</label>
+           <input type="radio" name="gender" id="gender" value="Male"/>
+        <label for="Male">Male</label>
+          <input type="radio" name="gender" id="gender" value="Trans"/>
+        <label for="Trans">Trans</label>
+          <input type="radio" name="gender" id="gender" value="no"/>
+        <label for="Male">Don`t want to tell</label>
+        </div>
+        
+        
+        
+        <input type="number" name="" placeholder="phone number" id="input" value="" />
+        <input type="password" placeholder="password" name="" id="input" value="" />
+ <center>       <button type="submit"> SUBMIT</button></center>
+      
+      </form>
+    </div>
+    
+    <div id='tab'>
+      <table>
+        
+      </table>
+    </div>
+    
+  </body>
+</html>
